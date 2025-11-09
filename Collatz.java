@@ -22,12 +22,11 @@ public class Collatz {
            counter++;
 		   temp = seed;
 		}
-		System.out.print(" (" + counter +")");
-		counter=1;
-           System.out.println( " ");
+		System.out.println(" (" + counter + ")");
+        counter = 1;
 		   temp =0;
 	}
 	 }
-System.out.println("Every one of the first " + n + " hailstone sequences reached 1");
+System.out.println("Every one of the first " + n + " hailstone sequences reached 1.");;
 	}
 }
